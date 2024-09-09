@@ -23,3 +23,19 @@ function subtraction(num1, num2) {
     console.log(biyogFol);
 }
 subtraction(-5, 5);
+
+// Miles to kilometer conversion
+function mileToKilometer(mile) {
+    const kilo = mile * 1.60934;
+    return kilo;
+}
+const kilometer = mileToKilometer(5);
+console.log(kilometer);
+
+// kilometer to miles
+function kilometerToMile(kilo) {
+    const mile = kilo / 1.60934;
+    return mile;
+}
+const miles = kilometerToMile(5);
+console.log(miles.toFixed(2));
