@@ -14,9 +14,9 @@ const isLipi = isLeapYear(2024);
 // console.log(isLipi);
 
 /**
- * 1. those year that is not divisble by 100, if the year is divisble by 4
+ * 1. those year that is not divisible by 100, if the year is divisible by 4
  *     then it will be a leap year.
- * 2. 
+ * 2. if the year is divisible by 400, then it is a leap year.
  */
 
 function isLeapYear2(year) {
